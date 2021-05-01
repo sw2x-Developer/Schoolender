@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/semesters",
+      "handler": "semester.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/semesters/count",
+      "handler": "semester.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/semesters/:id",
+      "handler": "semester.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/semesters",
+      "handler": "semester.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/semesters/:id",
+      "handler": "semester.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/semesters/:id",
+      "handler": "semester.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

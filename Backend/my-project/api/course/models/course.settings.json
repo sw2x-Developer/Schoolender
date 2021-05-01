@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "Course"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Color": {
+      "type": "string"
+    },
+    "Weeks": {
+      "type": "string"
+    },
+    "Time": {
+      "type": "string"
+    },
+    "Semester": {
+      "type": "string"
+    }
+  }
+}
